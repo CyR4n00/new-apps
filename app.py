@@ -29,7 +29,6 @@ def generate_mock_data():
     return pd.DataFrame(data)
 
 # --- Streamlit アプリのUI構築 ---
-
 st.set_page_config(page_title="Threads運用アシスタント", layout="wide")
 
 st.title("🧵 Threads 運用アシスタント (パーソナライズ＆Agent版)")
